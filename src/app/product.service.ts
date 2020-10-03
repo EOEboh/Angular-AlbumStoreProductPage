@@ -4,7 +4,7 @@ import 'rxjs/add/operator/map';
 import { Observable } from 'rxjs/Observable';
 import { from } from 'rxjs/observable/from';
 
-import { Album } from './album';
+import { Album, album } from './album';
 import { Observable } from './rxjs/Observable';
 
 @Injectable()
