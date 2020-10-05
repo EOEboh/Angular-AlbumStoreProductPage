@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { from } from 'rxjs/observable/from';
+
 import { ProductService } from '../product.service';
 
 import { Album } from '../album';
