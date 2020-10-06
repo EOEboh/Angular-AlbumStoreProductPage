@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Album } from 'app/album';
-import { from } from 'rxjs/observable/from';
+
 import { ProductService } from '../product.service';
+
 import { Album } from '../album';
 @Component({
   selector: 'app-product-description',

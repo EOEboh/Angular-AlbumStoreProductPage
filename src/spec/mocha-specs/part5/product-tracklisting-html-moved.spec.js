@@ -73,7 +73,7 @@ describe("ProductTracklisting", () => {
       attr => (tracklisting = attr.value.match(/tracklisting/))
     );
 
-    let element = '<app-product-description></app-product-description>';
+    let element;
     try {
       element = productTracklistingNodes[0].tagName;
     } catch (e) {
